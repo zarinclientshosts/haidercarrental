@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <meta property="og:title" content="Haider Car Rental & Tours" />
+      <meta property="og:image" content="https://haidercarrental.com/assets/img/Mercedes-Benz.png" />
+      <meta property="og:description" content="Providing services in Islamabad Rawalpindi Lahore & anywhere in Pakistan with Driver only." />
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
       <title>Cars Rental in Pakistan | Haider Car Rental</title>
@@ -41,6 +44,15 @@
     });
   });
 </script>
+   <!-- PWA Config Start -->
+<link rel="manifest" href="zarinpwamanifest.json">
+    <script>
+        //if browser support service worker
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('zarinpwa.js');
+        };
+      </script>
+   <!-- PWA Config End -->
    </head>
    <body>
       <div class="main-wrapper">
