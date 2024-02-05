@@ -1,7 +1,4 @@
-﻿@charset "UTF-8";
-@import "https://www.unclutchgoa.com/css2";
-
-.popular-services .listing-tabs-group,
+﻿.popular-services .listing-tabs-group,
 .search-box-banner ul,
 .css-equal-content,
 .css-equal-heights {
@@ -1490,7 +1487,7 @@ strong {
 		display: flex;
 		height: 65px;
 		align-items: center;
-		background: #fff
+		background: #0000
 	}
 }
 
